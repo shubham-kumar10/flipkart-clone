@@ -1,0 +1,18 @@
+.card {
+  background-color: whitesmoke;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.card--image {
+  max-width: 15rem;
+  height: auto;
+  width: 100%;
+}
+
+.card--header {
+  font-weight: 300;
+  text-transform: capitalize;
+  color: gray;
+}

@@ -1,0 +1,11 @@
+.header {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header--left-icon {
+  width: 100%;
+  height: auto;
+  max-width: 100px;
+}
