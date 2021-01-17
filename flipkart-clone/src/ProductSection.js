@@ -1,10 +1,15 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { useHistory, useLocation, useParams } from "react-router-dom";
 import { addItem } from "./features/cartSlice";
+import { getProduct, setProduct } from "./features/productSlice";
 
-function ProductSection({ product }) {
+function ProductSection() {
+  const id = useParams();
+  console.log(id);
   const dispatch = useDispatch();
+  const product = useSelector(getProduct);
+  console.log(product);
   const history = useHistory();
   const addToCartClicked = () => {
     dispatch(addItem(product));
@@ -13,7 +18,7 @@ function ProductSection({ product }) {
   return (
     <div>
       <section>
-        <img src={product.imgUrl} alt={product.Name} />
+        {product && <img src={product.imgUrl} alt={product.name} />}
         <button onClick={addToCartClicked}>Add to Cart</button>
         <button>Buy Now</button>
       </section>

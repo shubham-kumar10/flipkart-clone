@@ -1,10 +1,12 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import "./Card.css";
-function Card({ name, type, price, discountPercentage, imgUrl }) {
+function Card({ id, name, type, price, discountPercentage, imgUrl }) {
   const history = useHistory();
   const goToDetails = () => {
-    history.push("/product");
+    history.push({
+      pathname: `/product/${id}`,
+    });
   };
   return (
     <div className="card" onClick={goToDetails}>
