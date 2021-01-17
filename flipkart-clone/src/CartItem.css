@@ -1,0 +1,11 @@
+.cartItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cartItem--image {
+  max-width: 15rem;
+  height: auto;
+  width: 100%;
+}
