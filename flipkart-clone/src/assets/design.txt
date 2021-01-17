@@ -1,0 +1,4 @@
+Homepage -> App.js - contains cards
+card clicked -> ProductSEction -> Add to cart -> CArt
+
+Cart -> Contains cartitems list 

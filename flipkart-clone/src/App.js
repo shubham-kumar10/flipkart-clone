@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
-import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import Header from "./Header";
 import Card from "./Card";
-import data from "./assets/data.json";
+import Cart from "./Cart";
+
+import productList from "./assets/data.json";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ProductSection from "./ProductSection";
 
@@ -15,17 +15,22 @@ function App() {
         <Header />
         <Router>
           <Switch>
+            <Route path="/cart">
+              <Cart />
+            </Route>
             <Route path="/product">
-              <ProductSection product={data} />
+              <ProductSection />
             </Route>
             <Route path="/">
-              <Card
-                name={data.name}
-                type={data.type}
-                price={data.price}
-                discountPercentage={data.discountPercent}
-                imgUrl={data.imgUrl}
-              />
+              {productList.map((data) => (
+                <Card
+                  name={data.name}
+                  type={data.type}
+                  price={data.price}
+                  discountPercentage={data.discountPercent}
+                  imgUrl={data.imgUrl}
+                />
+              ))}
             </Route>
           </Switch>
         </Router>

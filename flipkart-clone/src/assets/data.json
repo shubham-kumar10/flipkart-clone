@@ -1,10 +1,42 @@
-{
-  "name": "Shirt",
-  "price": 100,
-  "imgUrl": "https://cms.cloudinary.vpsvc.com//image/fetch/q_auto:eco,w_700,f_auto,dpr_auto/https://s3-eu-west-1.amazonaws.com/sitecore-media-bucket/prod%2Fen%2F%7B41ED0F83-1DC4-4568-B273-4DBCCE756419%7D",
-  "hasDiscount": true,
-  "discountPercent": 25,
-  "seller": "Asian Shop",
-  "deliveryTime": 4,
-  "deliveryCost": 40
-}
+[
+  {
+    "name": "Shirt",
+    "price": 100,
+    "imgUrl": "https://cms.cloudinary.vpsvc.com//image/fetch/q_auto:eco,w_700,f_auto,dpr_auto/https://s3-eu-west-1.amazonaws.com/sitecore-media-bucket/prod%2Fen%2F%7B41ED0F83-1DC4-4568-B273-4DBCCE756419%7D",
+    "hasDiscount": true,
+    "discountPercent": 25,
+    "seller": "Asian Shop",
+    "deliveryTime": 4,
+    "deliveryCost": 40
+  },
+  {
+    "name": "Shirt",
+    "price": 100,
+    "imgUrl": "https://cms.cloudinary.vpsvc.com//image/fetch/q_auto:eco,w_700,f_auto,dpr_auto/https://s3-eu-west-1.amazonaws.com/sitecore-media-bucket/prod%2Fen%2F%7B41ED0F83-1DC4-4568-B273-4DBCCE756419%7D",
+    "hasDiscount": true,
+    "discountPercent": 25,
+    "seller": "Asian Shop",
+    "deliveryTime": 4,
+    "deliveryCost": 40
+  },
+  {
+    "name": "Shirt",
+    "price": 100,
+    "imgUrl": "https://cms.cloudinary.vpsvc.com//image/fetch/q_auto:eco,w_700,f_auto,dpr_auto/https://s3-eu-west-1.amazonaws.com/sitecore-media-bucket/prod%2Fen%2F%7B41ED0F83-1DC4-4568-B273-4DBCCE756419%7D",
+    "hasDiscount": true,
+    "discountPercent": 25,
+    "seller": "Asian Shop",
+    "deliveryTime": 4,
+    "deliveryCost": 40
+  },
+  {
+    "name": "Shirt",
+    "price": 100,
+    "imgUrl": "https://cms.cloudinary.vpsvc.com//image/fetch/q_auto:eco,w_700,f_auto,dpr_auto/https://s3-eu-west-1.amazonaws.com/sitecore-media-bucket/prod%2Fen%2F%7B41ED0F83-1DC4-4568-B273-4DBCCE756419%7D",
+    "hasDiscount": true,
+    "discountPercent": 25,
+    "seller": "Asian Shop",
+    "deliveryTime": 4,
+    "deliveryCost": 40
+  }
+]
